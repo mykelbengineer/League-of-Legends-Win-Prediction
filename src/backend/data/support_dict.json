@@ -1,0 +1,12 @@
+{
+    "TOP1": "TOP", 
+    "TOP2": "TOP", 
+    "JUNGLE1": "JUNGLE", 
+    "JUNGLE2": "JUNGLE",
+    "MID1": "MID", 
+    "MID2": "MID", 
+    "SUPPORT1": "SUPPORT", 
+    "SUPPORT2": "SUPPORT", 
+    "CARRY1": "ADC", 
+    "CARRY2": "ADC"
+}

@@ -1,0 +1,152 @@
+body{
+    background: lightgrey;
+}
+
+#your-team-col{
+    background: lightyellow;
+}
+
+#enemy-team-col{
+    background: lightcoral;
+}
+
+#title{
+    font-family: 'Courier New', monospace;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 300%;
+    padding: 20px;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Row for Teams */
+.row.flex-grow-1 {
+    flex-grow: 1;
+    min-height: 0; 
+    overflow: auto; 
+}
+
+.champion-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    min-width: 150px; /* Prevent wrapping for longer names */
+    justify-content: center;
+    
+}
+
+.champion-thumbnail {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.champion-name {
+    font-size: 1rem;
+    color: #000;
+    margin-left: 10px;
+    white-space: nowrap; /* Prevent the name from wrapping */
+}
+
+/* Button styling */
+.custom-btn {
+    background-color: #007BFF; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3; /* Darken color on hover */
+}
+
+/* Suggestion box */
+.suggestion-box {
+    border: 1px solid #ccc; /* Border color */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Dropdown style */
+.custom-dropdown {
+    width: 200px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#yourTeam, #enemyTeam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;  /* Width of a single image */
+    justify-content: flex-start;
+    gap: 10px;  /* Spacing between images, adjust as needed */
+}
+
+/* This will center the contents of the win rate column */
+#winrate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.winrate-box {
+    padding: 20px;
+    background-color: #f8f9fa; /* light gray */
+    border: 1px solid #dee2e6; /* gray */
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around; /* This spreads out the child columns evenly */
+}
+
+.delete-btn {
+    background-color: #f00; /* Red background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor changes to a hand when hovering over the button */
+    font-size: 0.8rem; /* Smaller font size */
+    padding: 5px 10px; /* Less padding to make the button smaller */
+    margin-left: 10px; /* Add some space between the button and the champion name */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Champion Card Managment */
+
+hr {
+    border-top: 5px solid black;
+}
+
+.card {
+    box-shadow: 0 15px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    background: sandybrown;
+    align-self: baseline;
+  }
+  
+.card:hover {
+    box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2);
+}
+
+#champCard {
+    padding: 15px 60px;
+}
